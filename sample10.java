@@ -12,6 +12,7 @@ public class sample10 {
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
 		System.out.println(num + "と入力しました。");
+		scan.close();
 
 	}
 
